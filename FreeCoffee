@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main() {
+  int x,p,dis,c=1;
+  scanf("%d %d ",&x,&p);
+  while(x>1) {
+    dis=(x*p)/100;
+    x=x-dis;
+    c++;
+    }
+    printf("%d",c);
+  }
